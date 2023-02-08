@@ -1,0 +1,92 @@
+* {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+#win-game-div {
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    font-size: large;
+    border-radius: 10px;
+    width: 20%;
+    height: 20%;
+    left: 45%;
+    top: 45%;
+}
+
+.button {
+    background-color: rgb(0, 119, 255);
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    transition: 500ms;
+}
+
+.button:hover {
+    background-color: rgb(21, 81, 185);
+    transition: 500ms;
+    width: 150px;
+    size: 150px;
+    font-size: large;
+}
+
+#info-div {
+    background-color: aquamarine;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    width: 14%;
+    height: 7%;
+    border-radius: 10%;
+}
+
+#credits-label {
+    position: absolute;
+    left: 1%;
+    top: 45%;
+}
+
+#info-div label {
+    font-size: large;
+}
+
+#info-div * {
+    padding-left: 20%;
+    margin-top: 100%;
+}
+
+#win-game-div * {
+    margin-top: 10%;
+}
+
+#game-container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+#player {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+
+#health-span {
+    color: red;
+}
+
+.image-texture {
+    max-width: 102%;
+    max-height: 102%;
+}
+
+.image-diagonal-texture {
+    max-width: 200%;
+    max-height: 200%;
+}
