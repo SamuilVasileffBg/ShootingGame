@@ -1,0 +1,1 @@
+Open the game with live server inside Visual Studio Code
